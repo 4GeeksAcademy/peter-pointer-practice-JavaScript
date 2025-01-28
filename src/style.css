@@ -1,1 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+    margin: 4px;
+  }
+
+body {
+    background: black;
+}

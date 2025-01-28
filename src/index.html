@@ -6,23 +6,36 @@
     <title>Hello Rigo with Vanilla.js</title>
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
     <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <h1 class="mt-5 text-danger">Intro JavaScript</h1>
+      <p class="alert alert-warning mt-4">Renderizando HTML desde JS</p>
+      
+      <!-- Renderizando listas -->
+      <!-- d-none para que no se vea la lista -->
+      <div class="row d-none">
+        <h2 class="text-success">List Users</h2>
+        <div class="col-md-6 col-sm-8 col-lg-4 mx-auto">
+          <ul class="list-group" id="list"></ul>
+        </div>
+      </div>
+
+      <!-- Renderizando Cards -->
+      <h2 class="text-warning">LEGO</h2>
+        <div class="container">
+          <div class="justify-content-evenly row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5" id="card"></div>
+        </div>
+    
+      <!-- Footer -->
+      <div class="mt-4 alert alert-danger p-4">
+        <strong>Made with ❤️ by Pedro Florit Docavo</strong>
       </div>
     </div>
   </body>
